@@ -1,0 +1,13 @@
+.code-editor {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.run-btn {
+    background-color: rgb(179, 179, 197);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}

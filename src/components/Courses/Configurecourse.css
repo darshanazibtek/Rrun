@@ -1,0 +1,22 @@
+.configure-course {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 9%;
+    color: gray;
+}
+
+.top {
+    height: 35px !important;
+    width: 60%;
+    border: 1px solid black !important;
+    margin: 0 auto;
+}
+
+.bottom {
+    border: 1px solid black;
+    height: 400px !important;
+    width: 60%;
+    margin: 0 auto;
+}

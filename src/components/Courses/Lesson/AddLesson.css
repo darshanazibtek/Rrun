@@ -1,0 +1,56 @@
+.add-lesson {
+    border: 1px solid black;
+    height: 900px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.add-lesson-form {
+    /* width: 40%; */
+    margin-top: 10px !important;
+    margin-left: 1px;
+    background-color: #fff;
+    padding-top: 10px;
+    align-items: flex-start;
+}
+
+.flex-combine {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.form-group-lesson {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-self: flex-start;
+    margin: 0 auto !important;
+    padding: 10px 30px;
+}
+
+.form-group-lesson-one {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.input-lesson-title {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    border-radius: "none";
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    height: 8px;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    resize: none;
+}

@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 12%;
+    border: 1px solid black;
+    height: 100vh;
+    top: 0%;
+}
+
+.link {
+    background-color: #ccc;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.create-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 1px solid black;
+}
+.share-icon {
+    margin-right: 50px;
+}
+
+.course-name {
+    margin-left: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.dash {
+    display: flex;
+}
+
+.left-content {
+    margin-top: 100px;
+}
+.left-nav-items {
+    margin-bottom: 2px !important;
+}
+
+.right-content {
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.course-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.links {
+    text-decoration: none;
+    color: black !important;
+}
+
+.line-div {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    align-items: center;
+}
+
+@media (max-width: 620px) {
+    .sidebar {
+        width: 25%;
+    }
+}

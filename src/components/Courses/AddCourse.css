@@ -1,0 +1,110 @@
+.addCourse-form {
+    /* width: 50% !important; */
+    /* margin: 0 auto; */
+    left: 10%;
+    background-color: #fff;
+    padding-top: 40px;
+    margin-top: 5%;
+    text-align: right !important;
+    align-items: start;
+    padding: 0 auto;
+}
+.back-icon {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.form-group-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-txt-two {
+    display: flex;
+    margin-bottom: 2px;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.input-course {
+    display: flex;
+    width: 40%;
+    padding: 15px;
+    border-radius: "none";
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    height: 8px;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+}
+
+.input-textArea {
+    display: flex;
+    /* width: 80%; */
+    padding: 10px;
+    border-radius: "none";
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    height: 100px;
+}
+
+.btn-addCourse {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.button-addCourse {
+    background-color: white;
+    color: gray;
+    border: 1px solid #ccc;
+    justify-content: center;
+    margin: 10px;
+    width: 10%;
+    padding: 10px 10px;
+}
+
+.create-btn {
+    background-color: white;
+    color: gray;
+    border: none;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px 20px;
+}
+
+.two-error {
+    position: relative;
+    color: red;
+    font-size: 10px;
+    padding: 0;
+    margin-top: 0 !important;
+}
+.error-div {
+    height: 8px;
+}
+
+@media (max-width: 600px) {
+    .signin-form {
+        width: 85%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+    .input-two {
+        width: 70%;
+    }
+    .btn-two {
+        margin-bottom: 5%;
+    }
+    .button-two {
+        margin: 10px;
+    }
+}

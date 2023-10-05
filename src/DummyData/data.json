@@ -1,0 +1,11 @@
+{
+    "programName": "Example R Program",
+    "description": "This is a sample R program that calculates the sum of two numbers.",
+    "code": "num1 <- 5\nnum2 <- 10\nsum <- num1 + num2\nprint(sum)",
+    "instructions": [
+        "Install R programming language and RStudio if not already installed.",
+        "Open RStudio and create a new script file.",
+        "Copy and paste the provided R code into the script file.",
+        "Run the code in RStudio to see the sum of two numbers printed in the console."
+    ]
+}

@@ -1,0 +1,31 @@
+.coding-env {
+    margin: 40px auto;
+    width: 90%;
+    border: 1px solid black;
+    height: 600px;
+    padding: 20px;
+    text-align: left;
+}
+.question-no {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+.exc-btn {
+    text-align: left;
+}
+
+.code-playground {
+}
+
+.hint-sc {
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.result-sc {
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 10px;
+}

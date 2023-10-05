@@ -1,0 +1,19 @@
+.course-description {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.user-crs-page {
+    margin-top: 2%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-ctn {
+    width: 120px;
+}
